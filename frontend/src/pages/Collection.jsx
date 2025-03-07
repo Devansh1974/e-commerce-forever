@@ -4,10 +4,10 @@ import { assets } from '../assets/assets'
 import Title from '../components/Title'
 import ProductItem from '../components/ProductItem'
 
- 
+
 const Collection = () => {
 
-  const {products} = useContext(ShopContext);
+  const {products , search , showSearch} = useContext(ShopContext);
   const [showFilter,setShowFilter] = useState(false);
   const [filterProducts , setFilterProducts] = useState([]);
   const [category,setCategory] = useState([]);
@@ -31,7 +31,7 @@ const Collection = () => {
       setSubCategory(prev => [...prev, e.target.value])
     }
   }
-
+  
   const applyFilter = () => {
 
     let productsCopy = products.slice();
