@@ -86,8 +86,8 @@ const Product = () => {
                 <p  className='border px-5 py-3 text-sm'>Reviews (122)</p>
           </div>
           <div className='flex flex-col gap-4 border px-6 py-6 text-sm text-gray-400'>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse maiores corporis ullam et sapiente, similique error magnam aliquid sequi ipsa officia dicta cumque harum deserunt ab eum voluptatibus eius ut.</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id, error!</p>
+            <p>Forever soft and breathable cloth is designed for a multitude of uses, bringing comfort and practicality to your daily life. Crafted from premium, durable fibers, it promises a gentle touch against your skin while maintaining its integrity through repeated washes..</p>
+            <p>Experience the difference of quality materials and thoughtful design, enhancing your routine with a touch of simple luxury.</p>
           </div>
         </div>  
         {/* Display related products */}
